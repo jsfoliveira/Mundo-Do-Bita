@@ -1,0 +1,27 @@
+{
+  "name": "mundo-do-bita",
+  "version": "1.0.0",
+  "description": "Recriacao da pagina do Mundo do Bita",
+  "main": "(src/index.html)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsfoliveira/Mundo-Do-Bita.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Juliana OLiveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsfoliveira/Mundo-Do-Bita/issues"
+  },
+  "homepage": "https://github.com/jsfoliveira/Mundo-Do-Bita#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
