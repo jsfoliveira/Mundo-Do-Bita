@@ -1,0 +1,25 @@
+.navbar__image {
+    text-align: center;
+    background-image: url('../assets/image-footer.jpg');
+    height: 60%;   
+}
+
+.navbar__background {
+    width: 60%;
+    height: 100%;
+    background-image: url('../assets/image-footer.jpg');
+}
+
+.navbar__links ul {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    text-align: center;
+    list-style:none;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-decoration: none;
+    background-color: cadetblue;
+    height: 50px;
+    margin-top: 0;
+    padding-top: 20px;
+}

@@ -9,36 +9,41 @@
     <title>Mundo do Bita</title>
 </head>
 <body>
-    <nav>
-        <div>
-            <img class="navbar__background" src="./assets/grupo-navbar.png" alt="Mundo Bita"/>
-            <ul>
-                <li>
-                    <a href="mundobita.html">
-                        Mundo Bita
-                    </a>
-                </li>
-                <li>
-                    <a href="character.html">
-                        Personagens
-                    </a>
-                </li>
-                <li>
-                    <a href="music.html">
-                        Músicas
-                    </a>
-                </li>
-                <li>
-                    <a href="store.html">
-                        Loja
-                    </a>
-                </li>
-                <li>
-                    <a href="contact.html">
-                        Contato
-                    </a>
-                </li>
-            </ul>
+    <nav class="navbar">
+        <div class="container navbar__container">
+            <div class="navbar__image">
+                <img class="navbar__background" src="./assets/grupo-navbar.png" alt="Mundo Bita"/>
+            </div>
+            <div class="navbar__links">
+                <ul>
+                    <li>
+                        <a href="mundobita.html">
+                            Mundo Bita
+                        </a>
+                    </li>
+                    <li>
+                        <a href="character.html">
+                            Personagens
+                        </a>
+                    </li>
+                    <li>
+                        <a href="music.html">
+                            Músicas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.lojinhadobita.com.br/" target="_blank">
+                            Loja
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contato
+                        </a>
+                    </li>
+                </ul>  
+            </div>
+                
         </div>
     </nav>
     <header>
@@ -94,7 +99,7 @@
         </section>
     </header>
     <main>
-        <section>
+        <section class="carrosel">
             <div>
                 <img class="bita__amigos" src="./assets/bita-amigos.jpg" alt="Bita com amigos" />
                 <h6>
@@ -114,44 +119,44 @@
                 </h6>
             </div>
         </section>
+    </main>
+    <footer class="footer__background">
         <section>
-            <div>
+            <div class="footer__text">
                 <h2>Conheça nossos aplicativos</h2>
             </div>
-            <div>
+            <div class="footer__image">
                 <img class="bita__apple" src="assets/bita-apple.png" alt="Bita Apple" />
                 <img class="bita__android" src="assets/bita-android.png" alt="Bita Android" />
             </div>
         </section>
-    </main>
-    <footer>
-        <div class="space__icons">
-            <div>
+        <section>
+           <div class="footer__icons">
                 <ul>
                     <li>
-                        <a href="https://outlook.live.com" target="_blank">contato@mundodobita.com.br</a>
+                        <a href="https://outlook.live.com" target="_blank"></a>
+                            <i class="fas fa-envelope-square">contato@mundodobita.com.br</i>
                     </li>
                 </ul>
-            </div>
-            <div>
                 <ul>
                     <li>
                         <a href="https://facebook.com/" target="_blank">
-                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-facebook">Mundo do Bita</i>
                         </a>
                     </li>
                     <li>
                         <a href="https://youtube.com/" target="_blank">
-                            <i class="fab fa-youtube-square"></i>
+                            <i class="fab fa-youtube-square">Canal MB Oficial</i>
                         </a>
                     </li>
                     <li>
                         <a href="https:/instagram.com/" target="_blank">
-                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-instagram">@mundodobitaoficial</i>
                         </a>
                     </li>  
                 </ul>   
-            </div>
+            </div> 
+        </section>
     </footer>
 </body>
 </html>
