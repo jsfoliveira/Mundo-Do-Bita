@@ -1,0 +1,23 @@
+
+.welcome__text2 {
+    padding-left: 100px;
+}
+
+.welcome__text2 h1 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 35px;
+    color: midnightblue;
+    margin-bottom: 0;
+}
+.welcome__text2 p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.video {
+    padding: 50px 200px;
+    
+
+}
+    

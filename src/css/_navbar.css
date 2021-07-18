@@ -21,6 +21,10 @@
     padding-top: 20px;
 }
 
+.navbar__links li {
+    padding-top: 5px;
+}
+
 .navbar__links a {
     text-decoration: none;
     font-weight: bold;
