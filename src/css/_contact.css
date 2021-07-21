@@ -1,0 +1,68 @@
+.header__contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header__image {
+    position: fixed;
+    top: 25rem;
+    z-index: -1;
+}
+
+.contact__title {
+    width: 400px;
+    padding-left: 200px;
+}
+
+.contact__title h1{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 35px;
+    color: midnightblue; 
+    text-align: right;
+}
+
+.contact__title p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    padding: 30px 0;
+}
+
+.contact__subtitle1 {
+    font-family: 'Otomanopee One', sans-serif;
+    color:paleturquoise;
+    display: block;
+    text-align: right;
+}
+
+.contact__form {
+    padding: 70px 20px;
+   
+}
+.form {
+    border:solid 1px;
+    border-radius: 20px;
+    
+    padding:40px 40px;
+    box-shadow: 10px 10px 10px 5px black
+}
+
+#name {
+    width: 88%;
+    margin-bottom: 0.8rem;
+}
+
+.form__email__phone {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0.8rem;
+}
+
+#message {
+    width:96%;
+    height:50px ;
+}
+
+.btn--contact {
+    text-align: center;
+    margin-top: 1rem;
+}

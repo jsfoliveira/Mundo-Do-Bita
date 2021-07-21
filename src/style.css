@@ -2,7 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+
 @import "./css/_navbar.css";
 @import "./css/_footer.css";
 @import "./css/_home.css";
 @import "./css/_mundobita.css";
+@import "./css/_character.css";
+@import "./css/_contact.css";
+@import "./css/_music.css";

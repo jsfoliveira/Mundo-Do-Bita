@@ -1,0 +1,57 @@
+.music__container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(243, 224, 224);
+ 
+}
+
+.music__container2 {
+    background-color: pink;
+    margin-top: 0;
+}
+
+.music__text {
+    padding-left: 0;
+    width: 80%;
+}
+
+.music__text h1 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 35px;
+    color: midnightblue;
+    margin-bottom: 0;
+}
+
+.songs1,
+.songs2,
+.songs3,
+.songs4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 80px; 
+}
+
+.radiobita,
+.bitacirco,
+.bitamundo,
+.bitanatureza,
+.bitahumano,
+.bitadia,
+.bitabrincadeira,
+.bitaanimais {
+    padding-left: 100px;
+}
+
+.radiobita p,
+.bitacirco p,
+.bitamundo p,
+.bitanatureza p,
+.bitahumano p,
+.bitadia p,
+.bitabrincadeira p,
+.bitaanimais p{
+   width: 341px;
+   font-family: 'Montserrat', sans-serif;
+}

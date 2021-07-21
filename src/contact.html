@@ -47,111 +47,74 @@
         </div>
     </nav>
     <header>
-        <section>
-            <div class="space__icons">
-                <div>
-                    <ul>
-                        <li>
-                            <a href="site em portugues" target="_blank">bandeira do brasil</a>
-                        </li>
-                        <li>
-                            <a href="site em ingles" target="_blank">bandeira da inglaterra</a>
-                        </li>
-                        <li>
-                            <a href="site em espanhol" target="_blank">bandeira da espanha</a>
-                        </li>  
-                    </ul>
+        <div>
+            <div class="header__contact">
+                <div class="contact__title"> 
+                    <h1 class="contact__title1">Entre em<span class="contact__subtitle1"> contato</span></h1>
+                    <hr class="line">
+                    <p>
+                        Adoramos interagir com os fãs! Envie aqui a sua mensagem para o Mundo Bita com sugestões, críticas, elogios e tudo mais que a sua imaginação mandar. Para shows e eventos, entre na sessão específica do site clicando em EVENTOS, naquela barra logo ali em cima.
+                    </p>
+                </div>
+                <div class="contact__form">
+                    <form class="form" method="POST" action="/pagina-processa-dados-do-form">
+                        <div>
+                            <label for="name">Nome</label>
+                            <input  id="name" type="text" name="usuario_nome"/>
+                        </div>
+                        <div class="form__email__phone">
+                            <div class="contact__email">
+                                <label for="email">Email</label>
+                                <input  id="email" type="email" name="usuario_email" />
+                            </div>
+                            <div>
+                                <label for="phone">Telefone</label>
+                                <input  id="phone" type="number" name="usuario_numero" /> 
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message">Escreva aqui</label>
+                            <textarea  id="message" type="text" name="usuario_msg"></textarea> 
+                        </div>
+                        <div class="btn--contact">
+                            <button type="submit">Enviar</button>
+                        </div>  
+                    </form>
+                       
                     
-                </div>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="https://facebook.com/" target="_blank">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://youtube.com/" target="_blank">
-                                <i class="fab fa-youtube-square"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https:/instagram.com/" target="_blank">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>  
-                    </ul>   
+                   
                 </div>
             </div>
-        </section>
-        <section>
-            <div>
-                <div>
-                    <img/>
-                </div>
-                <div>
-                    <h1> Bem-vindo ao Mundo do Bita</h1>
-                    <p>Bita é feito de músicas, cores, aprendizado e alegria. Tudo com muito carinho para que pequenos e adultos brinquem e cresçam juntos.</p> 
-                    <p>Venha viver aventuras divertidas com toda a turminha do Bita.Este mundo também é seu!</p>
-                    <button>Saiba +</button> 
-                </div>
+            <div class="header__image">
+                <img src="./assets/background-contact.jpg" alt="Background Contact">
             </div>
-        </section>
+        </di>
+       
     </header>
-    <main>
-        <section>
-            <div>
-                <img class="bita__amigos" src="./assets/bita-amigos.jpg" alt="Bita com amigos" />
-                <h6>
-                    Bita com os amigos
-                </h6>
-            </div>
-            <div>
-                <img class="bita__fazenda" src="./assets/bita-fazendinha.jpg" alt="Bita na fazenda" />
-                <h6>
-                    Bita na fazenda
-                </h6>
-            </div>
-            <div>
-                <img class="bita__parque" src="./assets/bita-parque.jpg" alt="Bita no parque" />
-                <h6>
-                    Bita no parque
-                </h6>
-            </div>
-        </section>
-    </main>
+
     <footer class="footer__background">
-        <section>
-            <div class="footer__text">
-                <h2>Conheça nossos aplicativos</h2>
-            </div>
-            <div class="footer__image">
-                <img class="bita__apple" src="assets/bita-apple.png" alt="Bita Apple" />
-                <img class="bita__android" src="assets/bita-android.png" alt="Bita Android" />
-            </div>
-        </section>
         <section>
            <div class="footer__icons">
                 <ul>
                     <li>
                         <a href="https://outlook.live.com" target="_blank"></a>
-                            <i class="fas fa-envelope-square">contato@mundodobita.com.br</i>
+                            <i class="fas fa-envelope-square"> contato@mundodobita.com.br</i>
                     </li>
                 </ul>
                 <ul>
                     <li>
                         <a href="https://facebook.com/" target="_blank">
-                            <i class="fab fa-facebook">Mundo do Bita</i>
+                            <i class="fab fa-facebook"> Mundo do Bita</i>
                         </a>
                     </li>
                     <li>
                         <a href="https://youtube.com/" target="_blank">
-                            <i class="fab fa-youtube-square">Canal MB Oficial</i>
+                            <i class="fab fa-youtube-square"> Canal MB Oficial</i>
                         </a>
                     </li>
                     <li>
                         <a href="https:/instagram.com/" target="_blank">
-                            <i class="fab fa-instagram">@mundodobitaoficial</i>
+                            <i class="fab fa-instagram"> @mundodobitaoficial</i>
                         </a>
                     </li>  
                 </ul>   
