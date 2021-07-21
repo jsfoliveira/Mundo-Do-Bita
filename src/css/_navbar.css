@@ -1,7 +1,7 @@
 .navbar__image {
     text-align: center;
     background-image: url('../assets/image-footer.jpg');
-    height: 60%;   
+    height: 60%;
 }
 
 .navbar__background {
@@ -13,16 +13,22 @@
 .navbar__links ul {
     display: grid;
     grid-template-columns: repeat(5,auto);
+    border-style:groove;
     text-align: center;
     list-style:none;
     background-color: cadetblue;
     height: 50px;
     margin-top: 0;
+    margin-bottom: 0;
     padding-top: 20px;
 }
 
 .navbar__links li {
     padding-top: 5px;
+}
+
+.navbar__links a:hover {
+    color:darkgoldenrod;
 }
 
 .navbar__links a {
@@ -31,5 +37,5 @@
     text-transform:uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    color: rebeccapurple;
+    color: black
 }
